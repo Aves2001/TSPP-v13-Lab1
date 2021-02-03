@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+п»їusing Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Lab1Test
 {
@@ -10,10 +10,10 @@ namespace Lab1Test
         {
             double a = 4;
 
-            double result = Lab1.Program.CubeRibArea(a); //Обчислює обєм[V] куба по довжині його ребра[a]
+            double result = Lab1.Program.CubeRibArea(a); //РћР±С‡РёСЃР»СЋС” РѕР±С”Рј[V] РєСѓР±Р° РїРѕ РґРѕРІР¶РёРЅС– Р№РѕРіРѕ СЂРµР±СЂР°[a]
             Assert.AreEqual(64, result);
 
-            result = Lab1.Program.SurfaceAreaCube(a); //Обчислює площю[S] поверхні куба по довжині його ребра[a]
+            result = Lab1.Program.SurfaceAreaCube(a); //РћР±С‡РёСЃР»СЋС” РїР»РѕС‰СЋ[S] РїРѕРІРµСЂС…РЅС– РєСѓР±Р° РїРѕ РґРѕРІР¶РёРЅС– Р№РѕРіРѕ СЂРµР±СЂР°[a]
             Assert.AreEqual(96, result);
         }
     }
