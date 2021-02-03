@@ -28,20 +28,20 @@ namespace Lab1
             
             Console.WriteLine();
             
-            _ = CubeRibArea(a); //Обчислює обєм[V] куба по довжині його ребра[a]
-            _ = SurfaceAreaCube(a); //Обчислює площю[S] поверхні куба по довжині його ребра[a]
+            RibToCubeV(a); //Обчислює обєм[V] куба по довжині його ребра[a]
+            RibToCubeS(a); //Обчислює площю[S] поверхні куба по довжині його ребра[a]
 
-            _ = Console.ReadLine(); //pause
+            Console.ReadLine(); //pause
         }
 
-        public static double CubeRibArea(double a) //Обчислює обєм[V] куба по довжині його ребра[a]
+        public static double RibToCubeV(double a) //Обчислює обєм[V] куба по довжині його ребра[a]
         {
             double V = a * a * a;
             Console.WriteLine("Об’єм куба = " + V);
             return V;
         }
 
-        public static double SurfaceAreaCube(double a) //Обчислює площю[S] поверхні куба по довжині його ребра[a]
+        public static double RibToCubeS(double a) //Обчислює площю[S] поверхні куба по довжині його ребра[a]
         {
             double S = a * a * 6;
             Console.WriteLine("Площа поверхні куба = " + S);

@@ -10,10 +10,10 @@ namespace Lab1Test
         {
             double a = 4;
 
-            double result = Lab1.Program.CubeRibArea(a); //Обчислює обєм[V] куба по довжині його ребра[a]
+            double result = Lab1.Program.RibToCubeV(a); //Обчислює обєм[V] куба по довжині його ребра[a]
             Assert.AreEqual(64, result);
 
-            result = Lab1.Program.SurfaceAreaCube(a); //Обчислює площю[S] поверхні куба по довжині його ребра[a]
+            result = Lab1.Program.RibToCubeS(a); //Обчислює площю[S] поверхні куба по довжині його ребра[a]
             Assert.AreEqual(96, result);
         }
     }
